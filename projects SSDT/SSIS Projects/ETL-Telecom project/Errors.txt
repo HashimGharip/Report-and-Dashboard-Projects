@@ -1,0 +1,10 @@
+1*
+[OLE DB Destination [39]] Error: SSIS Error Code DTS_E_OLEDBERROR.  An OLE DB error has occurred. Error code: 0x80004005.
+An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "The statement has been terminated.".
+An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "Cannot insert the value NULL into column 'tac'
+, table 'EO_Telecom_GrgEdu.dbo.fact_transaction'; column does not allow nulls. INSERT fails.".
+
+2*
+[ff SRC Read transaction [24]] Error: Data conversion failed. 
+The data conversion for column "event_ts" returned status value 2 and status text "
+The value could not be converted because of a potential loss of data.".
